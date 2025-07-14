@@ -9,7 +9,7 @@ body {
 .top-header {
 	background-color: white;
 	position: sticky;
-	top:0;
+	top: 0;
 	z-index: 1000;
 	display: flex;
 	justify-content: space-between;
@@ -36,6 +36,11 @@ body {
 .nav a {
 	text-decoration: none;
 	color: #000
+}
+
+.carousel-item img {
+	max-width: 100%;
+  	height: auto;
 }
 
 .social-link img {
@@ -91,7 +96,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh;
 }
 .title{
 	text-align: center;
